@@ -1,4 +1,4 @@
-package Jedi;
+package Application.jedi;
 
 public class Jedi {
     private String name;

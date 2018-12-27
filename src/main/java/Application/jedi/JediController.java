@@ -1,4 +1,4 @@
-package Jedi;
+package Application.jedi;
 
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class JediController {
 
 	
-	@RequestMapping("/Jedi")
+	@RequestMapping("/hello")
 	public String sayHi() {
 		return "General Kenobi you are a bold one";
 	}
