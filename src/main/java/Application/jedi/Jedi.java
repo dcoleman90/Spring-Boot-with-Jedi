@@ -7,6 +7,8 @@ public class Jedi {
     private String lightSaberColor;
     private String rank;
 
+    public Jedi() {}
+    
     public Jedi(String name, String race, int age, String lightSaberColor, String rank) {
         this.name = name;
         this.race = race;
@@ -30,7 +32,7 @@ public class Jedi {
     public void setRace(String race) {
         this.race = race;
     }
-
+    
     public int getAge() {
         return age;
     }
